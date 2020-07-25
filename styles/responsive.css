@@ -1,0 +1,42 @@
+@media screen and (max-width: 1200px) {
+    *,html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header .nav-bar {
+        justify-content: space-evenly;
+        position: fixed;
+    }
+
+    .nav-bar .logo-box .logo-name {
+        display: none;
+    }
+
+    .header .hero {
+        clip-path: none;
+        margin: 0;
+    }
+
+    .hero .title p {
+        font-size: 2.5rem;
+        padding: 0 5rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 425px) {
+    .header .nav-bar {
+        padding: 0.5rem;
+        font-size: 6px;
+    }
+
+}
