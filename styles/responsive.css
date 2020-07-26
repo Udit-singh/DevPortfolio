@@ -1,42 +1,110 @@
 @media screen and (max-width: 1200px) {
-    *,html {
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
     html {
-        font-size: 10px;
+        font-size: 50%;
+    }
+
+    .project-tile a .project-img {
+        max-width: 40rem;
+        min-height: 25rem;
+        max-height: 26rem;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .header .nav-bar {
-        justify-content: space-evenly;
-        position: fixed;
+@media screen and (max-width: 992px) {
+    .hero .hero-title {
+        font-size: 10rem;
+    }
+    .about .about-content {
+        margin: 0 5rem;
     }
 
-    .nav-bar .logo-box .logo-name {
-        display: none;
+    .projects {
+        padding: 10rem 6rem;
     }
 
-    .header .hero {
-        clip-path: none;
-        margin: 0;
+    .project-tile a .project-img {
+        max-width: 35rem;
     }
-
-    .hero .title p {
-        font-size: 2.5rem;
-        padding: 0 5rem;
-    }
-
-    
 }
 
-@media screen and (max-width: 425px) {
-    .header .nav-bar {
-        padding: 0.5rem;
-        font-size: 6px;
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+    .header .navbar {
+        padding: 1.5rem 2rem;
+        width: 100vw;
     }
 
+    .navbar .nav-head {
+        font-size: 2.7rem;
+        height: 100%;
+    }
+
+    .nav-links li {
+        margin: 0 0.5rem;
+    }
+
+    .nav-links li .nav-link {
+        font-size: 1.7rem;
+        padding: 2rem 0;
+    }
+
+    .nav-links li .nav-link::after {
+        height: 3px;
+    }
+
+    .hero .hero-title {
+        font-size: 5rem;
+    }
+
+    .about {
+        padding: 10rem 2rem;
+    }
+
+    .about .about-head {
+        font-size: 5rem;
+    }
+
+    .about .about-content {
+        margin: 0 2rem;
+        text-align: justify;
+        font-size: 1.8rem;
+        line-height: normal;
+    }
+
+    .projects {
+        padding: 10rem 2rem;
+    }
+
+    .projects .projects-head {
+        font-size: 5rem;
+    }
+
+    .projects .projects-subhead {
+        font-size: 1.8rem;
+    }
+
+    .projects-group .project-tile {
+        margin: 2rem 0;
+    }
+
+    .footer .footer-head {
+        font-size: 3rem;
+    }
+
+    .footer .contact-links {
+        margin: 2.5rem 0 6rem 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .navbar .nav-head {
+        font-size: 2.1rem;
+    }
+
+    .nav-links li .nav-link {
+        font-size: 1.3rem;
+        padding: 2rem 0;
+    }
 }
